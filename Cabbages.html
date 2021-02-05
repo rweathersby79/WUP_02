@@ -240,11 +240,23 @@ summary {
 <div id="inferential-results" class="section level2">
 <h2>Inferential Results</h2>
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
-</div>
-</div>
-<div id="discussion-and-conclusion" class="section level1">
-<h1>Discussion and Conclusion</h1>
+<pre class="r"><code>t.test(VitC~Cult,data=veggy)</code></pre>
+<pre><code>## 
+##  Welch Two Sample t-test
+## 
+## data:  VitC by Cult
+## t = -6.3909, df = 56.376, p-value = 3.405e-08
+## alternative hypothesis: true difference in means is not equal to 0
+## 95 percent confidence interval:
+##  -16.94296  -8.85704
+## sample estimates:
+## mean in group c39 mean in group c52 
+##              51.5              64.4</code></pre>
+<p>The hypotheses concluded that the vitamin c units are equal however, according to th p-value of .00000003405,the number is so small, we can conclude that the hypotheses is a null hypothese.<br />
+# Discussion and Conclusion</p>
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+<p>We can conclude that the cultivation method results that there is a greater vitamin content in c52 then there is in c39.</p>
+</div>
 </div>
 
 
